@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+body {
+    font-size: 15px;
+}
+
+.app-invoice {
+    border: 1px solid #dee2e6;
+}
+
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+}
+
+.page-break {
+    page-break-after: always;
+}
+
+hr {
+    border-bottom: 1px solid #000 !important;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.span300 {
+    width: 300px;
+    float: left;
+}
+
+hr.linebreak {
+    border-bottom: 1px solid #000;
+    margin-top: 10px;
+}
+
+.span150 {
+    width: 150px;
+    float: left;
+}
+
+.table td,
+.table th,
+.card .table td,
+.card .table th,
+.card .dataTable td,
+.card .dataTable th {
+    padding: 13px 8px;
+    vertical-align: middle;
+}
+
+.table thead tr th {
+    font-size: 14px;
+    font-weight: bold;
+    /*  text-align: center;*/
+}
+
+hr {
+    margin: 10px 0;
+}
+
+
+/*table,tr,td{
+    page-break-inside:avoid;
+}*/
+
+@page {
+    header: html_firstpageheader;
+}
+
+
+/* @page  {    
+    header: html_header;
+}
+*/
+
+@page {
+    footer: html_footer;
+}
+
+.text-center {
+    text-align: center;
+    ;
+}
+
+.app-invoice td,
+.app-invoice th {
+    border: 1px solid #dee2e6;
+}
+
+.table td {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+.col-xs-1,
+.col-sm-1,
+.col-md-1,
+.col-lg-1,
+.col-xs-2,
+.col-sm-2,
+.col-md-2,
+.col-lg-2,
+.col-xs-3,
+.col-sm-3,
+.col-md-3,
+.col-lg-3,
+.col-xs-4,
+.col-sm-4,
+.col-md-4,
+.col-lg-4,
+.col-xs-5,
+.col-sm-5,
+.col-md-5,
+.col-lg-5,
+.col-xs-6,
+.col-sm-6,
+.col-md-6,
+.col-lg-6,
+.col-xs-7,
+.col-sm-7,
+.col-md-7,
+.col-lg-7,
+.col-xs-8,
+.col-sm-8,
+.col-md-8,
+.col-lg-8,
+.col-xs-9,
+.col-sm-9,
+.col-md-9,
+.col-lg-9,
+.col-xs-10,
+.col-sm-10,
+.col-md-10,
+.col-lg-10,
+.col-xs-11,
+.col-sm-11,
+.col-md-11,
+.col-lg-11,
+.col-xs-12,
+.col-sm-12,
+.col-md-12,
+.col-lg-12 {
+    border: 0;
+    padding: 0;
+    margin-left: -0.00001;
+}
+
+
+/* @page {
+    header: html_firstpageheader;
+} */

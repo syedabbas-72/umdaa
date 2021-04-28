@@ -1,0 +1,1 @@
+<?php echo $details->patient_consent_form_description;?>
